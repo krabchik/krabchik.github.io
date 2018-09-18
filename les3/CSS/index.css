@@ -20,7 +20,7 @@
     outline: none;
 }
 .section_banner{
-    background: url(img/banner-bg.jpg);
+    background: url(../img/banner-bg.jpg);
     background-size: cover;
 }
 .container{
@@ -106,7 +106,7 @@ h4{
     text-transform: uppercase;
 }
 .footer{
-    background: url(img/footer-bg.jpg);
+    background: url(../img/footer-bg.jpg);
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 120px;
@@ -117,4 +117,13 @@ h4{
 }
 .copyright{
     padding: 0 15px;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+}
+.product-card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
