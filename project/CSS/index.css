@@ -1,44 +1,48 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
-.header{
-    padding: 15px 15px;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+ header{
     position: fixed;
-    left: 55%;
-    right: 0;
-    top: 0;
-    background: rgb(255, 221, 69);
-    border-radius: 20px;
+    padding: 15px 15px;
+    left: 800px;
+    width: 100%;
+    background-color: yellowgreen;
+    z-index: 2;
+    border-radius: 10px;
 }
-.header img{
-    height: 30px;
-    width: 30px;
-    background: rgb(255, 221, 69);
+main{
+    background-color: rgb(152,175,159);
 }
-.header_logo{
-    height: 30px;
-    width: 30px;
-    display:inline-block;
+.main-bigPicture{
+    background: url(http://cdn.forbes.ru/files/presets/900_566/story_images/30938.jpg__1513784997__27816__vid321067e.jpg);
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    border: 1px hidden;
 }
-.header_menu{
-    display:inline-block;
+.main-lenta{
+    height: 2000px;
+    width: 80%;
+    background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/09/79/615815ff843405e.jpg");
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 1px inset darkblue;
+    border-radius: 180px 180px 0 0 ;
+    padding: 10px;
 }
-.header_menu ul{
-    display:inline-block;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.fotki_s_yandexa{
+    margin: 20px auto;
+    height: 200px;
+    width: 90%;
+    background-color: teal;
+    border-radius: 10px;
 }
-.header_menu_item{
-    padding: 0 20px;
-    text-decoration: none;
-    font-size: 1.5em;
-    font-family: 'PT Sans', sans-serif;
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
 }
-.header_menu li{
-    list-style: none;
+p{
+    font-family: 'Ubuntu', sans-serif;
 }
-.BiggyBlock{
-    height: 1000px;
-    width: 200px;
-    border: 10px solid;
-    border-image: url("http://www.socioforum.su/images/ranks/clubNSK_moderator.gif") 30 repeat;
-}
+.text{
+    margin: 15px 100px;
+    font-size: 20px;
+} 
