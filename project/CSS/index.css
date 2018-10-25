@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
- header{
-    position: fixed;
-    padding: 15px 15px;
-    left: 800px;
-    width: 100%;
-    background-color: yellowgreen;
-    z-index: 2;
-    border-radius: 10px;
-}
 main{
     background-color: rgb(152,175,159);
 }
