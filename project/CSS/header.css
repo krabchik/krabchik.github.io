@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+.header{
+    padding: 15px 15px;
+    position: fixed;
+    left: 55%;
+    right: 0;
+    top: 0;
+    background: rgb(255, 221, 69);
+    border-radius: 20px;
+}
+.header img{
+    height: 30px;
+    width: 30px;
+    background: rgb(255, 221, 69);
+}
+.header_logo{
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+}
+.header_menu{
+    display:inline-block;
+}
+.header_menu ul{
+    display:inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header_menu_item{
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'PT Sans', sans-serif;
+}
+.header_menu li{
+    list-style: none;
+}
