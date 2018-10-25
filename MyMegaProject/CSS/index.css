@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+main{
+    background-color: rgb(152,175,159);
+}
+.main-bigPicture{
+    background: url("http://cdn.forbes.ru/files/presets/900_566/story_images/30938.jpg__1513784997__27816__vid321067e.jpg");
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    border: 1px hidden;
+}
+.main-lenta{
+    height: 2000px;
+    width: 80%;
+    background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/09/79/615815ff843405e.jpg");
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 1px inset darkblue;
+    border-radius: 180px 180px 0 0 ;
+    padding: 10px;
+}
+.fotki_s_yandexa{
+    margin: 20px auto;
+    height: 200px;
+    width: 90%;
+    background-color: teal;
+    border-radius: 10px;
+}
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+.text{
+    margin: 15px 100px;
+    font-size: 20px;
+} 
